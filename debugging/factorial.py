@@ -35,7 +35,7 @@ try:
 		print("Veuillez fournir un entier positif.")
 	else:
 		f = factorial(number)
-		print(f"La factorielle de {number} est {f}")
+		print(f"{f}")
 
 except ValueError:
 	# Capture l'erreur si l'utilisateur entre des lettres ou un nombre à virgule
